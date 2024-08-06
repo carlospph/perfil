@@ -64,7 +64,7 @@ img {
   justify-content: space-between;
 }
 
-.link-precos {
+a.link-precos {
   padding: 3px 10px;
   border: 1.1px solid var(--cor-font-leve);
   border-radius: 5px;
