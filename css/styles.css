@@ -378,7 +378,7 @@ footer {
     padding: 10px 10px 1rem 10px;
     color: var(--primary);
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
   }
 
