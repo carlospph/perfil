@@ -1,1 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  text-decoration: none;
+  font-family: sans-serif;
+  list-style: none;
+}
+
+:root {
+  --primary: rgb(15, 15, 96);
+  --cor-font-leve: #fff;
+  --bg-leve: #fff;
+  --bg-cinza: #f2f2f2;
+  --cor-thir: blueviolet;
+}
+
+body {
+  background: var(--bg-cinza);
+  color: var(--primary);
+}
+
+header {
+  background: var(--primary);
+  color: var(--cor-font-leve);
+  padding: 1rem 0.5rem;
+  position: fixed;
+  width: 100%;
+}
+
+.container-max {
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+/* icones */
+span.icon-default {
+  border: 3px solid rebeccapurple;
+  font-size: 48px;
+  padding: ;
+}
+
+img {
+  width: 100%;
+}
+
+.truncate {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  font-size: 13px;
+  padding-top: 4px;
+}
+
+/* header ============ ========== ========== =========== */
+
+.flex-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link-precos {
+  padding: 3px 10px;
+  border: 1.1px solid var(--cor-font-leve);
+  border-radius: 5px;
+  font-size: 13px;
+  letter-spacing: 1.1px;
+  cursor: pointer;
+}
+
+/* apresentation ========= ============= ========== ======= */
+
+.grid-apresentation {
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.author {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.font-qsand {
+  font-family: 'Quicksand', sans-serif;
+  font-optical-sizing: auto;
+}
+
+.lema,
+.sublema {
+  text-align: center;
+  padding: 4px;
+  font-weight: normal;
+}
+
+.btn-link {
+  border-radius: 6px;
+  border: 1px solid var(--primary);
+  margin-top: 1rem;
+  padding: 3px 11px;
+}
+
+/* about - sobre mim ========= =======  ========= ========== == */
+
+.container-hero {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 0 10px;
+}
+
+.container-hero h2 {
+  font-size: 24px;
+  padding-top: 30px;
+}
+
+.container-hero p {
+  padding: 10px 0;
+  line-height: 27px;
+  font-size: 16px;
+}
+.container-hero img {
+  border-radius: 50%;
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+/* grid especialidade === = ==== ===== ===== ==== ===== ====== === */
+.grid-especialidade {
+  padding: 10px 10px 1rem 10px;
+  color: var(--primary);
+}
+
+.grid-especialidade .icon-size,
+.container-whats .icon-size {
+  font-size: 44px;
+}
+
+.container-whats {
+  padding: 10px;
+}
+.grid-especialidade > div,
+.container-whats > div {
+  border: 1.1px solid var(--primary);
+  border-radius: 3px;
+  padding: 10px;
+  margin: 4px 0;
+}
+
+.title-card {
+  padding: 5px 0 7px 0px;
+}
+
+/* last-projects últimos projetos === ==== ==== ==== ==== ==== === */
+
+.last-projects {
+  padding: 1rem 10px 40px 10px;
+}
+
+.last-projects h5 {
+  padding: 0 0 0.8rem 0;
+  font-size: 20px;
+}
+
+.card-last {
+  margin-bottom: 0.8em;
+  padding-bottom: 10px;
+  overflow: hidden;
+  border-bottom: 1px solid var(--primary);
+}
+
+.card-last img {
+  border-radius: 6px 6px 0 0;
+}
+
+.c-link-btn {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+}
+
+/* whats objects ==== ==== ==== ==== === ==== ====  */
+.container-whats {
+  padding-bottom: 30px;
+}
+
+.container-whats h3 {
+  padding: 10px 0;
+}
+
+.container-whats p {
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+/* precos ==== ==== ==== ==== === ==== ====  */
+
+#precos {
+  padding: 0 10px 1rem 10px;
+  color: var(--primary);
+}
+
+#precos h3 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+#precos p {
+  line-height: 22px;
+}
+
+.grid-precos {
+  background: var(--bg-leve);
+  color: var(--primary);
+  padding: 1.8rem 5px 1.1rem 5px;
+  margin-top: 1.8rem;
+  border-radius: 4px;
+}
+
+.tag-apartir {
+  font-size: 14px;
+}
+
+.tag-value {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.marcadores-orcamento {
+  padding-left: 15px;
+}
+
+.marcadores-orcamento li {
+  padding-bottom: 8px;
+  font-size: 14px;
+}
+
+.marcadores-orcamento li:first-child {
+  padding-top: 0.6rem;
+}
+
+.w-inputs {
+  padding: 1.4rem 0;
+}
+
+.w-inputs h4 {
+  padding: 0 0 6px 0;
+}
+
+.group-input {
+  width: 100%;
+  height: 30px;
+  margin: 3px 0;
+  outline: none;
+  padding: 0 10px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 200px;
+  padding: 8px;
+  outline: none;
+  color: var(--primary);
+}
+
+button.btn-link {
+  border: 0;
+  padding: 5px 20px;
+  background: var(--primary);
+  color: var(--cor-font-leve);
+  cursor: pointer;
+}
+
+button.btn-clean {
+  background: orangered;
+}
+
+/* ======== newsletter ====== */
+#newsletter {
+  background: var(--cor-thir);
+  color: var(--cor-font-leve);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+}
+.bg-larger {
+  background: var(--cor-thir);
+}
+.group-title-newsletter {
+  text-align: center;
+}
+
+.group-title-newsletter h3 {
+  padding: 10px;
+  font-weight: normal;
+}
+
+.group-title-newsletter h2 {
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.group-input-newsletter {
+  padding: 4px;
+  display: flex;
+  background: var(--cor-font-leve);
+  border-radius: 5px;
+  width: 90%;
+}
+
+.group-input-newsletter input[type='text'] {
+  border: 0;
+  outline: none;
+  width: 90%;
+  padding: 0 10px;
+}
+
+.group-input-newsletter input[type='submit'] {
+  border: 0;
+  padding: 5px 10px;
+  background-color: var(--primary);
+  border-radius: 3px;
+  color: var(--cor-font-leve);
+  cursor: pointer;
+}
+
+/* footer | rodapé da página    */
+
+footer {
+  background: black;
+  color: var(--cor-font-leve);
+  padding: 13px 10px;
+}
+
+/*    para telas maiores de 569px   */
+
+/* ======== ===== ======= ======= ========== ======== ========= ===== */
+
+@media screen and (min-width: 569px) {
+  .container-max {
+    max-width: 992px;
+    margin: 0 auto;
+  }
+
+  .container-hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 0 10px;
+  }
+
+  .author {
+    font-size: 46px;
+  }
+
+  .container-hero img {
+    border-radius: 50%;
+    width: 80%;
+    display: block;
+  }
+
+  /* grid especialidade === tablete = ==== ===== ===== ==== ===== ====== === */
+  .grid-especialidade {
+    padding: 10px 10px 1rem 10px;
+    color: var(--primary);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  /* .last-projects ultimos projetos == ==== ====== ====== ==== === */
+  .last-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8em;
+  }
+
+  .last-projects h5 {
+    grid-column: 1/-1;
+  }
+
+  .container-whats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+    padding: 10px;
+  }
+
+  .line-all {
+    grid-column: 1/-1;
+    padding: 5px 0;
+  }
+
+  .grid-precos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .w-inputs {
+    padding: 0rem 0;
+  }
+
+  .group-input-newsletter {
+    padding: 4px;
+    display: flex;
+    background: var(--cor-font-leve);
+    border-radius: 5px;
+    max-width: 569px;
+  }
+}
