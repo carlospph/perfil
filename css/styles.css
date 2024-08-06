@@ -345,6 +345,27 @@ footer {
   padding: 13px 10px;
 }
 
+/* modal-perfil */
+ul.perfil{
+  background: #00ddff;
+  padding: 10px;
+  max-width: 300px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  border-radius: 5px;
+}
+
+/* li - lista do modal */
+ul.perfil li{
+  padding: 6px;
+  list-style:none;
+}
+
+/* class apresentar o modal */
+.modalPerfil.show{
+  opacity: 1;
+}
+
 /*    para telas maiores de 569px   */
 
 /* ======== ===== ======= ======= ========== ======== ========= ===== */
