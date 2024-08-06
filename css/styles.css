@@ -364,8 +364,9 @@ ul.perfil li{
 /* class apresentar o modal */
 .modalPerfil.show{
   opacity: 1;
-  position: absolute;
+  position: fixed;
   top: 50px;
+  left: 140px;
 }
 
 /*    para telas maiores de 569px   */
